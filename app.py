@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-# Página HTML con SVG, estilo y JavaScript interactivo
+# Página HTML con SVG, estilo y JavaScript interactivo.
 html = """
 <!DOCTYPE html>
 <html lang="es">
