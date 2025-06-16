@@ -1,7 +1,7 @@
 from flask import Flask
 
 app = Flask(__name__)
-
+#aqui usamos las etiquetas para la web
 # Página HTML con SVG, estilo y JavaScript interactivo
 html = """
 <!DOCTYPE html>
