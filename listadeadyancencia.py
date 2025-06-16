@@ -101,6 +101,8 @@ html = """
             adjacencyList[a].push([b, Number(w)]);
             adjacencyList[b].push([a, Number(w)]);
         }
+# Dibuja una arista entre dos nodos en el SVG y actualiza la matriz de adyacencia.
+# Si la arista ya existe, se actualiza; si no, se crea una nueva línea y su etiqueta con el peso.
 
         function drawEdge(a, b, w) {
             const nodeA = document.getElementById(`node-${a}`);
